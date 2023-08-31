@@ -205,6 +205,7 @@
                     </svg>
                 </div>
                 <div class="flex w-full rounded-full bg-black bg-opacity-20 backdrop-blur-sm drop-shadow-lg">
+                    <div class="absolute">
                     <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g filter="url(#filter0_b_16_21)">
                             <circle cx="32" cy="32" r="32" fill="black" fill-opacity="0.05" />
@@ -223,18 +224,19 @@
                             </filter>
                         </defs>
                     </svg>
-                    <p class="flex relative items-center text-xs font-semibold uppercase md:left-24">lieu aléatoire suivant</p>
+                    </div> 
+                    <p class="flex justify-center m-auto items-center h-16 text-xs font-semibold uppercase md:flex md:justify-center">lieu aléatoire suivant</p>
                 </div>
             </div>
         </div>
     </div>
     <!-- Modal -->
-    <div id="modalOverlay" class="fixed transition-all ease-in-out duration-500 my-4 md:w-3/4 md:m-auto">
+    <div id="modalOverlay" class="flex flex-col justify-center m-auto bg-white rounded-3xl bg-opacity-20 gap-y-4 transition-all ease-in-out duration-500 my-4 md:w-3/4">
         <div>
-            <div id="modal" class=" md:top-10">
+            <div>
                 <div class="bg-cover backdrop-blur-xl" style="background-image: url('ressources/BG_image.Svg')">
-                    <div class="flex flex-col mx-4 gap-y-10">
-                        <div class="flex relative justify-start p-4">
+                    <div class="flex flex-col mx-6 gap-y-10">
+                        <div class="flex  p-4">
                             <div id="closeModal">
                                 <svg width="16" height="24" viewBox="0 0 16 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -251,7 +253,7 @@
                                     </defs>
                                 </svg>
                             </div>
-                            <div class="absolute  left-1/3">
+                            <div class="flex justify-center m-auto">
                                 <p class="uppercase w-32 text-xl font-medium">tout sur besançon</p>
                             </div>
                         </div>
