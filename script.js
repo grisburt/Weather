@@ -24,11 +24,11 @@ document.querySelector("#heart").onclick = function(){
 
 document.querySelector('#openModal').onclick =function(){
     document.querySelector('#modal').classList.toggle('hidden');
-    document.querySelector('#modal').classList.add('animateslideInUp');
-    document.querySelector('#modal').classList.remove('animateslideOutDOwn');
+    document.querySelector('#modal').classList.add('animate_slideInUp');
+    document.querySelector('#modal').classList.remove('animate_slideOutDOwn');
 
 }
 document.querySelector('#closeModal').onclick =function(){
     document.querySelector('#modal').classList.toggle('hidden');
-    document.querySelector('#modal').classList.add('animateslideOutDOwn');
+    document.querySelector('#modal').classList.add('animate_slideOutDOwn');
 }
